@@ -7,6 +7,39 @@ public class Student {
 	private int grade;
 	private String address;
 	
+	
+	//단축키 (getter/setter)
+	
+	public int getIdnum() {
+		return idnum;
+	}
+	public void setIdnum(int idnum) {
+		this.idnum = idnum;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getGrade() {
+		return grade;
+	}
+	public void setGrade(int grade) {
+		this.grade = grade;
+	}
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
+	}
+	
+	
+	
+	
+	/*
+	
 	//학번
 	public void setNum(int idnum) {
 		this.idnum = idnum;
@@ -47,6 +80,7 @@ public class Student {
 	}
 	
 	
+	*/
 	
 	public void showInfo() {
 		System.out.println("학번: " + idnum);
@@ -54,5 +88,7 @@ public class Student {
 		System.out.println("학년: " + grade +"년");
 		System.out.println("사는곳: " + address);
 		}
+		
+		
 
 }
