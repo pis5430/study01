@@ -6,7 +6,7 @@ public class SutdaCardApp {
 		
 		
 		SutdaCard card1 = new SutdaCard(3, false);
-		SutdaCard card2 = new SutdaCard();
+		SutdaCard card2 = new SutdaCard(); //SutdaCard(1,true)를 호출한다.
 		System.out.println(card1.info());
 		System.out.println(card2.info());
 

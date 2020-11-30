@@ -85,7 +85,7 @@ public class Student {
 	public void showInfo() {
 		System.out.println("학번: " + idnum);
 		System.out.println("이름: " + name);
-		System.out.println("학년: " + grade +"년");
+		System.out.println("학년: " + grade +"학년");
 		System.out.println("사는곳: " + address);
 		}
 		
