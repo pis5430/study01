@@ -4,8 +4,8 @@ public class Tv {
 	
 	
 	//필드
-	private boolean power;
-	private int channel;
+	protected boolean power;
+	protected int channel;
 	
 	//생성자
 	
