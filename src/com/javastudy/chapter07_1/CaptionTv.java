@@ -13,6 +13,11 @@ public class CaptionTv extends Tv {
 		this.caption = caption;
 	}
 	
+	public CaptionTv(int channel, boolean caption) {
+		super(channel);
+		this.caption = caption;
+	}
+	
 	//메소드 getter, setter
 
 	public boolean isCaption() {
@@ -26,10 +31,17 @@ public class CaptionTv extends Tv {
 	//일반메소드
 	
 	public void displatCaption(String text) {
-		if(caption) { //캡션상태가 on(treu) 일떄만 text를 보여준다.
+		if(caption) { //캡션상태가 on(true) 일떄만 text를 보여준다.
 			System.out.println(text);
 		}
 	}
+
+	@Override
+	public String toString() {
+		return "CaptionTv [caption=" + caption + ", channel=" + channel + ", power=" +  power + "]";
+	}
+	
+	
 	
 	
 	

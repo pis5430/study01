@@ -75,8 +75,10 @@ public class Student {
 		return kor + eng +math;
 	}
 	
-	public float getAverage() {  //소수점 둘째자리에서 반환하는법 
-		return getTotal()/3;
+	public float getAverage() {
+		
+		//return getTotal()/3f
+		return (int)(getTotal()/3f * 10 + 0.5f) / 10f;  //소수점 둘째자리에서 반환하는법 
 	}
 	
 	

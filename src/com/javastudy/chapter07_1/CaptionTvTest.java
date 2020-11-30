@@ -17,6 +17,12 @@ public class CaptionTvTest {
 		// -- > 아니면 getter,setter를 만들어줘서 가져와야함
 		ctv.displatCaption("안녕하세요2");
 		
+		CaptionTv ctv01 = new CaptionTv(11, true);
+		System.out.println(ctv.toString());
+		ctv.power();
+		System.out.println(ctv.toString());
+		
+		
 	}
 
 }
